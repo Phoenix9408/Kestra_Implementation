@@ -14,7 +14,7 @@ The project consists of the following files:
 
 - **`docker-compose.yml`**: Configuration to deploy Kestra with PostgreSQL and pgAdmin
 - **`pipeline_orchestration.yml`**: Definition of the data processing pipeline
-- **`Fichier_erp.xlsx`, `Fichier_web.xlsx`, `fichier_liaison.xlsx`**: Source files containing ERP, Web, and linkage data
+- **`Fichier_erp.xlsx`, `Fichier_web.xlsx`, `fichier_liaison.xlsx`**: Source files provided in aws S3 containing ERP, Web, and linkage data
 
 ## Installation
 
