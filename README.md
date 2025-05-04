@@ -60,7 +60,7 @@ Username: kestra
 
 Password: k3str4
 
-Once connected , you have to run the sql of PostGre_Config.sql, in order to create quality table
+Once connected , you have to run the sql of PostGre_Config file in order to create quality table
 
 5. AWS Configuration
 Set up your AWS credentials for storing reports in an S3 bucket:
