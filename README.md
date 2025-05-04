@@ -21,9 +21,9 @@ The project consists of the following files:
 ### 1. Clone the repository
 
 Clone this project from the GitHub repository:
-```bash
-git clone [REPO_URL]
-cd [REPO_NAME]
+
+git clone git@github.com:Phoenix9408/Kestra_Implementation.git
+
 
 
 2. Start the services with Docker Compose
