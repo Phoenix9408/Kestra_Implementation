@@ -88,23 +88,15 @@ Each steps is triggered to restart if failur three times.
 Scheduling
 The pipeline is scheduled to run automatically on the 15th of every month at 9:00 AM via the following cron schedule:
 
-yaml
-Copier
 triggers:
   - id: monthly_schedule
     type: io.kestra.plugin.core.trigger.Schedule
     cron: "0 9 15 * *"
+The piplile is triggered to run each month 15 , at 9
 
-Error Handling
-The pipeline includes error handling with notifications:
 
-yaml
-Copier
-errors:
-   - id: error
-     type: io.kestra.plugin.core.log.Log
-     message: Task {{task.id}} failed
-     level: ERROR
+The pipeline includes error handling with retry:
+
 
 
 
